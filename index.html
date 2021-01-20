@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!--In Gitpod to add a quick HTML template code type in "doc" and press ENTER-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Example</title>
+    <!--External CSS-->
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+
+    <!--Internal CSS-->
+    <style>
+        body{
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <!--Add an empty element to hold the changes that are made in script.js-->
+    <div id="container"></div>
+    <div id="message"></div>
+    <!--Add a button with an id and onclick attribute that checks when the button is clicked to run a function-->
+    <button id="click" onclick="changeText()">Click Here!</button>
+    <!--External JS-->
+    <script src="js/script.js"></script>
+
+    <!--Interal JS-->
+    <script>
+        var text = "Welcome!";
+
+        document.getElementById("message").textContent = text;
+    </script>
+</body>
+</html>

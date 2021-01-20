@@ -1,0 +1,11 @@
+#container, #click, #message{
+    padding: 20px;
+}
+
+button{
+    margin-left: 20px;
+}
+
+#message{
+    font-weight: bolder;
+}
